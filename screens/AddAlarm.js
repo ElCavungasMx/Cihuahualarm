@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text } from "react-native";
-const HomeScreen = () => {
+const AddAlarm = () => {
   return (
     <View>
-      <Text>HomeScreen</Text>
+      <Text>Pantalla que agrega alarmas</Text>
     </View>
   );
 };
-export default HomeScreen;
+export default AddAlarm;
