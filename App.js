@@ -1,11 +1,7 @@
-import "react-gesture-handler";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
 // importar las pantallas
-import { NavigationContainer } from "@react-navigation/native";
 // aqui abajo
+import TabNavigator from "./Navigation/TabNavigation";
 
 export default function App() {
   return <TabNavigator />;
